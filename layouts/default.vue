@@ -1,8 +1,15 @@
 <template>
-  <div>
-    <Navbar/>
-    <nuxt/>
-  </div>
+  <el-container>
+    <el-header>
+       <Navbar/>
+    </el-header>
+    <el-main>
+      <nuxt/>
+    </el-main>
+    <el-footer>
+      Footer
+    </el-footer>
+  </el-container>
 </template>
 
 <script>
