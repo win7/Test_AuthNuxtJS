@@ -74,7 +74,7 @@ export default {
           property: 'token',
           global: true,
           // required: true,
-          // type: 'Bearer'
+          type: "JWT" // 'Bearer'
         },
         user: {
           property: 'data.user',

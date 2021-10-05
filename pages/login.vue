@@ -1,7 +1,7 @@
 <template>
     <el-container>
       <el-alert
-        title="error"
+        :title="error"
         type="success" v-if="error"/>
       </el-alert>
       <el-form ref="form" :model="form" label-width="120px">
